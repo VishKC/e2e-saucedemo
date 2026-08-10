@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-CheckOutFlow" class="navigator-link">
+              <span class="suite-name border-failed">CheckOutFlow</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-CheckOutFlow" class="navigator-link ">
+                    <span>D:\SEProjs\e2e-saucedemo\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-CheckOutFlow" class="navigator-link ">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-CheckOutFlow" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-CheckOutFlow" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-CheckOutFlow" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-CheckOutFlow" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-CheckOutFlow" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">13 methods, 2 failed,   11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-CheckOutFlow" class="hide-methods failed suite-CheckOutFlow"> (hide)</a> <!-- hide-methods failed suite-CheckOutFlow -->
+                      <a href="#" panel-name="suite-CheckOutFlow" class="show-methods failed suite-CheckOutFlow"> (show)</a> <!-- show-methods failed suite-CheckOutFlow -->
+                    </span>
+                    <div class="method-list-content failed suite-CheckOutFlow">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CheckOutFlow" title="learn.framework.ErrorScenarios" class="method navigator-link" hash-for-method="errorMessagesOnLoginPage(null, null)">errorMessagesOnLoginPage(null, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CheckOutFlow" title="learn.framework.ErrorScenarios" class="method navigator-link" hash-for-method="errorMessagesOnLoginPage(null, null)">errorMessagesOnLoginPage(null, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-CheckOutFlow -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-CheckOutFlow" class="hide-methods passed suite-CheckOutFlow"> (hide)</a> <!-- hide-methods passed suite-CheckOutFlow -->
+                      <a href="#" panel-name="suite-CheckOutFlow" class="show-methods passed suite-CheckOutFlow"> (show)</a> <!-- show-methods passed suite-CheckOutFlow -->
+                    </span>
+                    <div class="method-list-content passed suite-CheckOutFlow">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CheckOutFlow" title="learn.framework.RemoveProductAndCheckOut" class="method navigator-link" hash-for-method="AddProductsToCart">AddProductsToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CheckOutFlow" title="learn.framework.RemoveProductAndCheckOut" class="method navigator-link" hash-for-method="RemoveTheProduct">RemoveTheProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CheckOutFlow" title="learn.framework.ErrorScenarios" class="method navigator-link" hash-for-method="errorMessagesOnCheckOutPage">errorMessagesOnCheckOutPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CheckOutFlow" title="learn.framework.ErrorScenarios" class="method navigator-link" hash-for-method="errorMessagesOnLoginPage(admin_user, admin@2026)">errorMessagesOnLoginPage(admin_user, admin@2026)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CheckOutFlow" title="learn.framework.SelectAndCheckOut" class="method navigator-link" hash-for-method="productCheckout">productCheckout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CheckOutFlow" title="learn.framework.RemoveProductAndCheckOut" class="method navigator-link" hash-for-method="productCheckout">productCheckout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CheckOutFlow" title="learn.framework.SelectAndCheckOut" class="method navigator-link" hash-for-method="selectProductAddToCart">selectProductAddToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CheckOutFlow" title="learn.framework.Login" class="method navigator-link" hash-for-method="verifyDashBoardPage">verifyDashBoardPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CheckOutFlow" title="learn.framework.Login" class="method navigator-link" hash-for-method="verifyDashBoardPage">verifyDashBoardPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CheckOutFlow" title="learn.framework.Login" class="method navigator-link" hash-for-method="verifyLogin">verifyLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CheckOutFlow" title="learn.framework.Login" class="method navigator-link" hash-for-method="verifyLogin">verifyLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-CheckOutFlow -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-CheckOutFlow" class="panel CheckOutFlow">
+          <div class="suite-CheckOutFlow-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">learn.framework.ErrorScenarios</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="errorMessagesOnLoginPage(null, null)">
+                  </a> <!-- errorMessagesOnLoginPage(null, null) -->
+                  <span class="method-name">errorMessagesOnLoginPage</span>
+                  <span class="parameters">(null,null)</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Keys to send must be set
+	at org.openqa.selenium.internal.Require.nonNull(Require.java:68)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:99)
+	at src.test.resources.LoginPO.enterUsername(LoginPO.java:27)
+	at src.test.resources.LoginPO.loginToApplication(LoginPO.java:51)
+	at learn.framework.ErrorScenarios.errorMessagesOnLoginPage(ErrorScenarios.java:62)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="errorMessagesOnLoginPage(null, null)">
+                  </a> <!-- errorMessagesOnLoginPage(null, null) -->
+                  <span class="method-name">errorMessagesOnLoginPage</span>
+                  <span class="parameters">(null,null)</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Keys to send must be set
+	at org.openqa.selenium.internal.Require.nonNull(Require.java:68)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:99)
+	at src.test.resources.LoginPO.enterUsername(LoginPO.java:30)
+	at src.test.resources.LoginPO.loginToApplication(LoginPO.java:51)
+	at learn.framework.ErrorScenarios.errorMessagesOnLoginPage(ErrorScenarios.java:62)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CheckOutFlow-class-failed -->
+          <div class="suite-CheckOutFlow-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">learn.framework.RemoveProductAndCheckOut</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddProductsToCart">
+                  </a> <!-- AddProductsToCart -->
+                  <span class="method-name">AddProductsToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RemoveTheProduct">
+                  </a> <!-- RemoveTheProduct -->
+                  <span class="method-name">RemoveTheProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="productCheckout">
+                  </a> <!-- productCheckout -->
+                  <span class="method-name">productCheckout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CheckOutFlow-class-passed -->
+          <div class="suite-CheckOutFlow-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">learn.framework.SelectAndCheckOut</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="productCheckout">
+                  </a> <!-- productCheckout -->
+                  <span class="method-name">productCheckout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectProductAddToCart">
+                  </a> <!-- selectProductAddToCart -->
+                  <span class="method-name">selectProductAddToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CheckOutFlow-class-passed -->
+          <div class="suite-CheckOutFlow-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">learn.framework.ErrorScenarios</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="errorMessagesOnCheckOutPage">
+                  </a> <!-- errorMessagesOnCheckOutPage -->
+                  <span class="method-name">errorMessagesOnCheckOutPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="errorMessagesOnLoginPage(admin_user, admin@2026)">
+                  </a> <!-- errorMessagesOnLoginPage(admin_user, admin@2026) -->
+                  <span class="method-name">errorMessagesOnLoginPage</span>
+                  <span class="parameters">(admin_user,admin@2026)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CheckOutFlow-class-passed -->
+          <div class="suite-CheckOutFlow-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">learn.framework.Login</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDashBoardPage">
+                  </a> <!-- verifyDashBoardPage -->
+                  <span class="method-name">verifyDashBoardPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDashBoardPage">
+                  </a> <!-- verifyDashBoardPage -->
+                  <span class="method-name">verifyDashBoardPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLogin">
+                  </a> <!-- verifyLogin -->
+                  <span class="method-name">verifyLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLogin">
+                  </a> <!-- verifyLogin -->
+                  <span class="method-name">verifyLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CheckOutFlow-class-passed -->
+        </div> <!-- panel CheckOutFlow -->
+        <div panel-name="test-xml-CheckOutFlow" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\SEProjs\e2e-saucedemo\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;CheckOutFlow&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;CheckOutTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;learn.framework.Login&quot;/&gt;
+      &lt;class name=&quot;learn.framework.SelectAndCheckOut&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- CheckOutTest --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;RemoveProductAndCheckOutTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;learn.framework.Login&quot;/&gt;
+      &lt;class name=&quot;learn.framework.RemoveProductAndCheckOut&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- RemoveProductAndCheckOutTest --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;ErrorScenarios&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;learn.framework.ErrorScenarios&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ErrorScenarios --&gt;
+&lt;/suite&gt; &lt;!-- CheckOutFlow --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-CheckOutFlow" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for CheckOutFlow</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">CheckOutTest (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">RemoveProductAndCheckOutTest (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">ErrorScenarios (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-CheckOutFlow" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for CheckOutFlow</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-CheckOutFlow" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for CheckOutFlow</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_CheckOutFlow');
+function tableData_CheckOutFlow() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(13);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'errorMessagesOnCheckOutPage')
+data.setCell(0, 2, 'learn.framework.ErrorScenarios')
+data.setCell(0, 3, 17689);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'AddProductsToCart')
+data.setCell(1, 2, 'learn.framework.RemoveProductAndCheckOut')
+data.setCell(1, 3, 13461);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'selectProductAddToCart')
+data.setCell(2, 2, 'learn.framework.SelectAndCheckOut')
+data.setCell(2, 3, 11534);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'productCheckout')
+data.setCell(3, 2, 'learn.framework.RemoveProductAndCheckOut')
+data.setCell(3, 3, 4943);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'productCheckout')
+data.setCell(4, 2, 'learn.framework.SelectAndCheckOut')
+data.setCell(4, 3, 3966);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'errorMessagesOnLoginPage')
+data.setCell(5, 2, 'learn.framework.ErrorScenarios')
+data.setCell(5, 3, 2328);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyLogin')
+data.setCell(6, 2, 'learn.framework.Login')
+data.setCell(6, 3, 1877);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'RemoveTheProduct')
+data.setCell(7, 2, 'learn.framework.RemoveProductAndCheckOut')
+data.setCell(7, 3, 1094);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyLogin')
+data.setCell(8, 2, 'learn.framework.Login')
+data.setCell(8, 3, 450);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyDashBoardPage')
+data.setCell(9, 2, 'learn.framework.Login')
+data.setCell(9, 3, 277);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyDashBoardPage')
+data.setCell(10, 2, 'learn.framework.Login')
+data.setCell(10, 3, 196);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'errorMessagesOnLoginPage')
+data.setCell(11, 2, 'learn.framework.ErrorScenarios')
+data.setCell(11, 3, 75);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'errorMessagesOnLoginPage')
+data.setCell(12, 2, 'learn.framework.ErrorScenarios')
+data.setCell(12, 3, 25);
+window.suiteTableData['CheckOutFlow']= { tableData: data, tableDiv: 'times-div-CheckOutFlow'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 57 seconds</span>
+              <div id="times-div-CheckOutFlow">
+              </div> <!-- times-div-CheckOutFlow -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-CheckOutFlow" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for CheckOutFlow</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-CheckOutFlow" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">4 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">learn.framework.RemoveProductAndCheckOut</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">LaunchBrowser</span>
+                <br/>
+                <span class="ignored-method-name">ShutDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">learn.framework.SelectAndCheckOut</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">ShutDown</span>
+                <br/>
+                <span class="ignored-method-name">LaunchBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-CheckOutFlow" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">learn.framework.Login</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">LaunchBrowser</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">initPageObjects</span>
+                <span class="method-start">5669 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verifyLogin</span>
+                <span class="method-start">5697 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyDashBoardPage</span>
+                <span class="method-start">7582 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">learn.framework.SelectAndCheckOut</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initPageObjects</span>
+                <span class="method-start">7859 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">selectProductAddToCart</span>
+                <span class="method-start">7866 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">productCheckout</span>
+                <span class="method-start">19403 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">learn.framework.Login</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">ShutDown</span>
+                <span class="method-start">23375 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test before">
+                <span class="method-name">LaunchBrowser</span>
+                <span class="method-start">23700 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">initPageObjects</span>
+                <span class="method-start">25480 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verifyLogin</span>
+                <span class="method-start">25483 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyDashBoardPage</span>
+                <span class="method-start">25935 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">learn.framework.RemoveProductAndCheckOut</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initPageObjects</span>
+                <span class="method-start">26132 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">AddProductsToCart</span>
+                <span class="method-start">26135 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">RemoveTheProduct</span>
+                <span class="method-start">39598 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">productCheckout</span>
+                <span class="method-start">40692 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">learn.framework.Login</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">ShutDown</span>
+                <span class="method-start">45636 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">learn.framework.ErrorScenarios</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">LaunchBrowser</span>
+                <span class="method-start">45856 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">initPageObjects</span>
+                <span class="method-start">47800 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">errorMessagesOnLoginPage(admin_user, admin@2026)</span>
+                <span class="method-start">47861 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">errorMessagesOnLoginPage(null, null)</span>
+                <span class="method-start">50189 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">errorMessagesOnLoginPage(null, null)</span>
+                <span class="method-start">50267 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">errorMessagesOnCheckOutPage</span>
+                <span class="method-start">50294 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">ShutDown</span>
+                <span class="method-start">67983 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

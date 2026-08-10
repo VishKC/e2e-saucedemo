@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="CheckOutFlow">
+  <test name="CheckOutTest">
+    <classes>
+      <class name="learn.framework.Login"/>
+      <class name="learn.framework.SelectAndCheckOut"/>
+    </classes>
+  </test> <!-- SelectAndCheckOut -->
+  <test name="RemoveProductAndCheckOutTest">
+    <classes>
+      <class name="learn.framework.Login"/>
+      <class name="learn.framework.RemoveProductAndCheckOut"/>
+    </classes>
+  </test> <!-- RemoveProductAndCheckOut -->
+  <test name="ErrorScenarios">
+    <classes>
+      <class name="learn.framework.ErrorScenarios"/>
+    </classes>
+  </test> <!-- ErrorScenarios -->
+</suite> <!-- CheckOutFlow -->
