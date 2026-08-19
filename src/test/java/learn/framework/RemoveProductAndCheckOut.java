@@ -30,6 +30,7 @@ public class RemoveProductAndCheckOut extends BaseTest{
 		productsToCart = myutils.readProductsdata();
 		
 		System.out.println("RemoveProductAndCheckOut - productsToCart: "+productsToCart);
+		System.out.println("Adding Output statement");
 		
 		dashBoardPage.addListOfProducts(productsToCart);
 		dashBoardPage.naviagateToShoppinCart();
