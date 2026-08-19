@@ -28,7 +28,7 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
-
+	
 	<dependencies>
 		<dependency>
 			<groupId>org.junit.jupiter</groupId>
@@ -121,5 +121,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
 </project>
